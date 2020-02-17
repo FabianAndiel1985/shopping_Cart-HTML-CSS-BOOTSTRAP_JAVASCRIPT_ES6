@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!-- bootstrap style -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- individual styles -->
+    <link rel="stylesheet" type="text/css" href="design/styles.css">
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/7eee44637e.js" crossorigin="anonymous"></script>
+    <!-- font satisfy -->
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+    	<div class="py-5">
+            <h1 class="text-center">
+            Cake store     
+            </h1> 
+            <div class="container px-15 showCart1_container ">
+                <button class="showCart1">
+                    Show cart
+                </button>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <div class="products-container">
+        <div  class="container">
+            <div class="row">
+                <div class="col-md-4 py-3">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="images/pink_cake.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Pink cake</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            <p><span class="font-weight-bold"> Price:</span> <span>&#36;</span> 4.30 </p>
+                            <button class="addBtn" value="pink_cake"> <i class="fas fa-shopping-cart"></i> add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="images/strawberry_cream.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry Cream</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            <p><span class="font-weight-bold"> Price:</span> <span>&#36;</span> 2.20  </p>
+                            <button class="addBtn" value="strawberry_cream"> <i class="fas fa-shopping-cart"></i> add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="images/cake_pops.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cake Pops</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            <p><span class="font-weight-bold"> Price:</span>  <span>&#36;</span> 0.80 </p>
+                            <button class="addBtn" value="cake_pops"> <i class="fas fa-shopping-cart"></i> add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end first row -->
+
+
+            <div class="row mt-4">
+
+                <div class="col-md-4 py-3">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="images/strawberry_cake.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry Cake</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            <p><span class="font-weight-bold"> Price:</span>  <span>&#36;</span> 9.50 </p> </p>
+                            <button class="addBtn" value="strawberry_cake"> <i class="fas fa-shopping-cart"></i> add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="images/homemade_gugelhupf.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Homemade Gugelhupf</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            <p><span class="font-weight-bold"> Price:</span> <span>&#36;</span> 4.30  </p>
+                            <button class="addBtn" value="homemade_gugelhupf"> <i class="fas fa-shopping-cart"></i> add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3">
+                    <div class="card" style="width: 19rem;">
+                        <img class="card-img-top" src="images/chocolate_muffins.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Choclate Muffins</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                            <p><span class="font-weight-bold"> Price:</span> <span>&#36;</span> 2.30  </p>
+                            <button class="addBtn" value="chocolate_muffins"> <i class="fas fa-shopping-cart"></i> add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                    <button class="showCart2">
+                        Show cart
+                    </button> 
+
+            </div> <!-- end second row -->
+
+        </div>  <!-- end of bootstrap container -->
+        </div><!-- end of product container   -->   
+        
+        <div class="cart-panel-hidden">
+            <div class="text-right closing_container">
+                <i class="fas fa-minus mr-4 fa-2x closer_cart_panel hide_closer_card_panel">  
+                </i>
+            </div>
+
+            <div class="text-center sum-container hide_total_sum">
+                <p>Total: <span> &#36; </span> <span id="totalSum"> 0 </span>   </p>
+            </div>
+
+        </div>
+
+      
+    </main>
+
+    <footer class="d-flex justify-content-center mt-5">
+        <p> made by Fabian Andiel</p>
+    </footer>
+
+    
+
+    
+    <!-- bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- individual script -->
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+
+</body>
+
+</html>
